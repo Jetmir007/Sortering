@@ -1,0 +1,14 @@
+C:\Users\Admin\Documents\GitHub\Sortering\bin\Debug\net8.0\Sortering.exe
+C:\Users\Admin\Documents\GitHub\Sortering\bin\Debug\net8.0\Sortering.deps.json
+C:\Users\Admin\Documents\GitHub\Sortering\bin\Debug\net8.0\Sortering.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\Sortering\bin\Debug\net8.0\Sortering.dll
+C:\Users\Admin\Documents\GitHub\Sortering\bin\Debug\net8.0\Sortering.pdb
+C:\Users\Admin\Documents\GitHub\Sortering\obj\Debug\net8.0\Sortering.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\Sortering\obj\Debug\net8.0\Sortering.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\Sortering\obj\Debug\net8.0\Sortering.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\Sortering\obj\Debug\net8.0\Sortering.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\Sortering\obj\Debug\net8.0\Sortering.dll
+C:\Users\Admin\Documents\GitHub\Sortering\obj\Debug\net8.0\refint\Sortering.dll
+C:\Users\Admin\Documents\GitHub\Sortering\obj\Debug\net8.0\Sortering.pdb
+C:\Users\Admin\Documents\GitHub\Sortering\obj\Debug\net8.0\Sortering.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\Sortering\obj\Debug\net8.0\ref\Sortering.dll
