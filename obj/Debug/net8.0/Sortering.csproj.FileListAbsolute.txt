@@ -12,3 +12,4 @@ C:\Users\Admin\Documents\GitHub\Sortering\obj\Debug\net8.0\refint\Sortering.dll
 C:\Users\Admin\Documents\GitHub\Sortering\obj\Debug\net8.0\Sortering.pdb
 C:\Users\Admin\Documents\GitHub\Sortering\obj\Debug\net8.0\Sortering.genruntimeconfig.cache
 C:\Users\Admin\Documents\GitHub\Sortering\obj\Debug\net8.0\ref\Sortering.dll
+C:\Users\Admin\Documents\GitHub\Sortering\obj\Debug\net8.0\Sortering.sourcelink.json

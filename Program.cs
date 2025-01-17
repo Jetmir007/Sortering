@@ -1,4 +1,6 @@
-﻿static void Swap(ref int a, ref int b){
+﻿using System.Diagnostics;
+
+static void Swap(ref int a, ref int b){
     int temp = a;
     a = b;
     b = temp;
@@ -23,24 +25,36 @@ void Insertion(ref int[] arr){
         int j = i-1;
 
         while(j>=0 && arr[j] > key){
-
+            arr[j+1] = arr[j];
+            j--;
         }
+        arr[j+1] = key;
     }
+}
+
+void Merge(ref int[] arr, int l, int r){
+    
 }
 
 void Main()
 {
-    int[] tal = new int[1000];
+    Stopwatch watch = new Stopwatch();
+    int[] tal = new int[10];
     for (int i = 0; i <= tal.Length-1; i++)
     {
         Random rng = new Random();
-        tal[i] = rng.Next(0, 10000);
+        tal[i] = rng.Next(0, 1000000);
     }
-
+    watch.Start();
     Bubble(ref tal);
-
+    
     foreach(int n in tal){
         Console.Write(n + " ");
     }
+    watch.Stop();
+    TimeSpan ts = watch.Elapsed;
+    Console.WriteLine("\n" + ts);
+    
+
 }
 Main();
