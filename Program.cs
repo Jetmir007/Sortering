@@ -125,7 +125,8 @@ static void Quick(int[] arr, int l, int h){
 void Main()
 {
     Stopwatch watch = new Stopwatch();
-    int[] tal = new int[10];
+    Stopwatch stopwatch = new Stopwatch();
+    int[] tal = new int[1000900];
     for (int i = 0; i <= tal.Length-1; i++)
     {
         Random rng = new Random();
@@ -134,13 +135,14 @@ void Main()
     watch.Start();
     MergeSort(tal, 0, tal.Length-1);
     watch.Stop();
+    stopwatch.Start();
     foreach(int n in tal){
         Console.Write(n + " ");
     }
-    
+    stopwatch.Stop();
+    TimeSpan ts2 = stopwatch.Elapsed;
     TimeSpan ts = watch.Elapsed;
-    Console.WriteLine("\n" + ts);
-    
-
+    Console.WriteLine("\n" + "\n" + "Sorttid: " + ts);
+    Console.WriteLine("Skrivtid: " + ts2);
 }
 Main();
